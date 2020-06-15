@@ -1,7 +1,7 @@
 {
   "name": "imdb_bert_tensorflowjs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A demo app for demonstrating the deployment of BERT sentence classification model using Tensorflow JS.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,5 +9,12 @@
   },
   "keywords": [],
   "author": "Vivek Khimani <vck29@drexel.edu> (https://vivekkhimani.github.io/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.0.1",
+    "@tensorflow/tfjs-node": "^2.0.1",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "sentence-tokenization": "^1.0.1"
+  }
 }
