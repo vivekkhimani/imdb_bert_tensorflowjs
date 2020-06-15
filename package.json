@@ -1,0 +1,13 @@
+{
+  "name": "imdb_bert_tensorflowjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Vivek Khimani <vck29@drexel.edu> (https://vivekkhimani.github.io/)",
+  "license": "MIT"
+}
